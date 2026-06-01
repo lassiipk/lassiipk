@@ -1,31 +1,87 @@
-# 💫 About Me:
-👋 Hi, I'm Saim (aka lassiipk / Mee0w) — an 18-year-old student, hobbyist, and builder from 🇵🇰 Pakistan who loves turning annoying problems into neat little tools.<br>🐍 Python is my go-to language — I've been tinkering with it since 8th grade and I'm currently in 12th grade, still learning every day with the help of AI and a lot of curiosity. If Python can automate it, I'll probably try.<br>🔒 I'm big on privacy and independence — I hate my data being used by big companies or fed into AI training pipelines. Every tool I build runs 100% locally, no internet required. No uploads, no downloads, no waiting — just fast, private, and mine.<br>🛠️ I build local utility tools that solve real, specific problems — like batch-renaming thousands of corrupted files, or scanning entire folder trees to log sizes, extensions, and nested counts — the kind of tools I actually use myself.<br>🤖 I've also built a Discord bot that audits admin activity — logging permission-based actions in both private DMs and a dedicated server channel, keeping moderation transparent and accountable.<br>⌨️ On the hardware side, I designed ModuPad — a custom 3×3 macropad with a rotary encoder, 128×32 OLED display, and a hand-designed PCB powered by the Seeed XIAO RP2040. The enclosure was modeled in Autodesk Fusion 360 and the PCB was designed in KiCad.<br>📐 Currently leveling up in KiCad and Fusion 360 as I dive deeper into hardware design.<br>📷 Outside of tech, I'm a hobbyist photographer and videographer — mostly capturing nature and editing everything myself to bring it to life. Not professional, just passionate.<br>🌱 Not a professional yet — just an 18-year-old who loves building things, breaking them, and figuring out why.
+# Muhammad Saim Ghazanfar
 
+**Hardware builder · Python tinkerer · Privacy-first · Based in Pakistan 🇵🇰**
 
-## 🌐 Socials:
-[![Behance](https://img.shields.io/badge/Behance-1769ff?logo=behance&logoColor=white)](https://behance.net/lassiipk) [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/lassiipk) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:saimmias555@gmail.com) 
+I design and build things from scratch — custom PCBs, macropads, automation tools, and local-first utilities. Currently finishing my ICS (Computer Science) and shipping hardware projects funded by [HackClub Blueprint](https://blueprint.hackclub.com/users/12822).
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=flat&logo=adobe%20photoshop&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat&logo=github&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.shion.dev/api?username=lassiipk&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://streak-stats.demolab.com/?user=lassiipk&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.shion.dev/api/top-langs/?username=lassiipk&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=lassiipk&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=lassiipk&limit=5&theme=dark&combine_all_yearly_contributions=true)
+Everything I build runs locally. No uploads, no telemetry, no waiting on someone else's server.
 
 ---
-[![](https://komarev.com/ghpvc/?username=lassiipk&icon=1&color=1)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lassiipk) [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/lassiipk) [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/lassiipk) 
+## 🔧 Projects
 
-  
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+### [ModuPad](https://github.com/lassiipk/ModuPad) — Custom Mechanical Macropad
+*Dec 2025 – Jan 2026 · Funded by HackClub Blueprint (YSWS Program)*
+
+A fully custom-built programmable macropad designed and fabricated from scratch — no kits, no templates.
+
+- Custom **2-layer PCB** designed in **KiCad**
+- **3×3 key matrix** + rotary encoder (with push) + **128×32 OLED** display
+- Microcontroller: **Seeed XIAO RP2040**
+- Firmware in **KMK / CircuitPython**
+- Enclosure modeled in **Autodesk Fusion 360**
+- Fully documented and journaled on GitHub
+
+---
+
+### [ModuPad v2](https://github.com/lassiipk/ModuPad_v2) — Upgraded Macropad *(In Progress)*
+*Jan 2026 – Present · Funded by HackClub Blueprint (YSWS Program)*
+
+A significant step up from v1 — more keys, RGB, Bluetooth, and three encoders.
+
+- **5×5 key matrix** with per-key **SK6812 MINI-E RGB LEDs**
+- 3 rotary encoders + **128×32 OLED** display
+- Microcontroller: **nice!nano** (Bluetooth-capable)
+- Custom **PCB in KiCad**, enclosure in **Fusion 360**
+- Firmware in **KMK / CircuitPython**
+
+---
+
+### Private Tools *(Coming eventually)*
+
+A set of Python CLI utilities I use daily — batch file renaming, folder tree scanning, local encryption helpers, and automation scripts. They work, but need proper testing, packaging, and documentation before they're worth publishing publicly.
+
+---
+
+## 🛠️ Tech Stack
+
+**Programming & Firmware**
+`Python` `CircuitPython` `KMK`
+
+**Hardware & Electronics**
+`KiCad` `Seeed XIAO RP2040` `nice!nano` `SK6812 RGB LEDs` `OLED displays` `Rotary encoders`
+
+**3D Modeling & CAD**
+`Autodesk Fusion 360`
+
+**Creative & Media**
+`Adobe Photoshop` `Adobe Premiere Pro` `DaVinci Resolve`
+
+---
+
+## 📜 Certifications
+
+| Certificate | Issuer | Date | Link |
+|---|---|---|---|
+| Foundations of Cybersecurity | Google (Coursera) | Feb 2024 | [Verify](https://coursera.org/verify/S9PMPK9MQW45) |
+| Basics of Python Programming | OpenWeaver | Jul 2023 | Verification No: 31359516474875 |
+
+---
+
+## 🌐 Links
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:saimmias555@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=flat&logo=github&logoColor=white)](https://github.com/lassiipk)
+[![Behance](https://img.shields.io/badge/Behance-1769ff?style=flat&logo=behance&logoColor=white)](https://www.behance.net/lassiipk)
+[![Shutterstock](https://img.shields.io/badge/Shutterstock-EE2222?style=flat&logo=shutterstock&logoColor=white)](https://www.shutterstock.com/g/lassiipk)
+[![Upwork](https://img.shields.io/badge/Upwork-6FDA44?style=flat&logo=upwork&logoColor=white)](https://www.upwork.com/freelancers/lassiipk)
+
+---
+
+## 💰 Support My Work
+
+If something I've built has been useful to you:
+
+[![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/lassiipk)
+[![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/lassiipk)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/lassiipk)
